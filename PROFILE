@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi P. Jamdar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vaishnavi P. Jamdar</h1>
+        <img src="https://drive.google.com/uc?export=view&id=1qrgdugMhLpDWXu3IonYcWJacdv57rdmq" alt="Vaishnavi Jamdar" class="profile-pic">
+        <p>Food Technologist | Research Enthusiast</p>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Passionate Food Technologist with expertise in food research and development.</p>
+    </section>
+    
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>B.Tech Food Technology (2022-2026)</strong> - MIT ADT University</p>
+        <p><strong>12th Science (2021-2022)</strong> - Vidya Pratishthan's Arts, Science & Commerce College (67%)</p>
+        <p><strong>10th CBSE (2019-2020)</strong> - Podar International School (76%)</p>
+    </section>
+    
+    <section id="experience">
+        <h2>Experience</h2>
+        <p><strong>Food Technologist - Nature Delight Dairy</strong> (May - June 2024)</p>
+        <ul>
+            <li>Worked on food processing improvements.</li>
+            <li>Assisted in quality control and research projects.</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <p><strong>Curcumin Fortified Cracker Development</strong></p>
+        <p>Research on enhancing food quality using curcumin-based ingredients.</p>
+    </section>
+    
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <p>✅ NPTEL Certification - Cooling Technology</p>
+        <p>✅ Coursera Certification - Plant-Based Diets</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:vaishnavijamdar2004@gmail.com">vaishnavijamdar2004@gmail.com</a></p>
+        <p>Phone: 9767134366</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Vaishnavi P. Jamdar | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
