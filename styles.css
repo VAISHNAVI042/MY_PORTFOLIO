@@ -3,14 +3,17 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background: #121212;
+    background: linear-gradient(to bottom, #1a1a1a, #4a148c);
     color: white;
 }
+
 header {
     background: #222;
     padding: 40px 20px;
     font-size: 28px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
+
 .profile-pic {
     width: 150px;
     height: 150px;
@@ -19,12 +22,26 @@ header {
     border: 3px solid #ff4081;
     margin-top: 20px;
 }
+
 section {
     padding: 40px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
+
+h2 {
+    color: #ff4081;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 footer {
     background: #222;
     color: white;
     padding: 20px;
     margin-top: 20px;
 }
+
