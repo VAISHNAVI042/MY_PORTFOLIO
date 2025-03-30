@@ -43,6 +43,18 @@ h2 {
 u {
     text-decoration: underline; /* Underlines project headings */
 }
+.project {
+    margin-bottom: 20px; /* Adds spacing between projects */
+}
+
+h3 {
+    color: #ff4081; /* Matches theme color */
+    text-decoration: underline; /* Underlines project titles */
+}
+
+ul {
+    padding-left: 20px; /* Aligns bullet points properly */
+}
 
 p {
     text-align: left; /* Ensures paragraph text is left-aligned */
