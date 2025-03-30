@@ -15,15 +15,19 @@ header {
     text-align: center; /* Keeps header text centered */
 }
 
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #ff4081;
-    margin-top: 20px;
+.profile-photo {
+  width: 150px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
+  border-radius: 50%; /* Make it a circle */
+  object-fit: cover; /* Crop and fill to fit */
+  object-position: center center; /* Center the image */
+  overflow: hidden; /* Ensure content doesn't spill out */
 }
 
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+}
 section {
     padding: 40px 20px;
     background: rgba(255, 255, 255, 0.1);
