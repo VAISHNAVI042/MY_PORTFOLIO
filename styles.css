@@ -40,6 +40,9 @@ h2 {
     letter-spacing: 1px;
     text-align: center; /* Ensures headings are left-aligned */
 }
+u {
+    text-decoration: underline; /* Underlines project headings */
+}
 
 p {
     text-align: left; /* Ensures paragraph text is left-aligned */
