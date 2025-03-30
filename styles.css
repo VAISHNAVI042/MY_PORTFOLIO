@@ -42,6 +42,9 @@ h2 {
     letter-spacing: 1px;
     text-align: center; /* Ensures headings are left-aligned */
 }
+h4{
+    text-align:center;
+}
 u {
     text-decoration: underline; /* Underlines project headings */
 }
