@@ -2,73 +2,77 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center; /* Keeps the whole page centered */
-    background: linear-gradient(to bottom, #1a1a1a, #4a148c);
-    color: white;
+    text-align: center;
+    background: linear-gradient(to bottom, #e0f7fa, #b3e5fc); /* Sky blue gradient */
+    color: #003344; /* Dark teal text for readability */
 }
 
 header {
-    background: #222;
+    background: #ffffff; /* Light background */
     padding: 40px 20px;
     font-size: 28px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
-    text-align: center; /* Keeps header text centered */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    text-align: center;
+    color: #007acc; /* Sky blue text */
 }
-
 
 .profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #ff4081;
+    border: 3px solid #00bcd4; /* Bright cyan border */
     margin-top: 20px;
 }
-
 
 section {
     padding: 40px 20px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
     margin: 20px auto;
     border-radius: 10px;
     max-width: 800px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
-    text-align: left; /* Aligns section content to the left */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
 h2 {
-    color: #ff4081;
+    color: #00acc1; /* Light cyan */
     text-transform: uppercase;
     letter-spacing: 1px;
-    text-align: center; /* Ensures headings are left-aligned */
-}
-h4{
-    text-align:center;
-}
-u {
-    text-decoration: underline; /* Underlines project headings */
-}
-.project {
-    margin-bottom: 20px; /* Adds spacing between projects */
+    text-align: center;
 }
 
 h3 {
-    color: #ff4081; /* Matches theme color */
-    text-decoration: underline; /* Underlines project titles */
+    color: #00acc1;
+    text-decoration: underline;
+}
+
+h4 {
+    text-align: center;
+    color: #007acc;
+}
+
+u {
+    text-decoration: underline;
+}
+
+.project {
+    margin-bottom: 20px;
 }
 
 ul {
-    padding-left: 20px; /* Aligns bullet points properly */
+    padding-left: 20px;
 }
 
 p {
-    text-align: left; /* Ensures paragraph text is left-aligned */
+    text-align: left;
 }
 
 footer {
-    background: #222;
-    color: white;
+    background: #ffffff;
+    color: #007acc;
     padding: 20px;
     margin-top: 20px;
-    text-align: center; /* Keeps footer text centered */
+    text-align: center;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
 }
