@@ -1,19 +1,19 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
-    background: linear-gradient(to bottom, #e0f7fa, #b3e5fc); /* Sky blue gradient */
-    color: #003344; /* Dark teal text for readability */
+    background: linear-gradient(to bottom, #f9fbe7, #e8f5e9); /* Soft cream to greenish-white */
+    color: #2e2e2e; /* Dark charcoal for readability */
 }
 
 header {
-    background: #ffffff; /* Light background */
+    background: #ffffff;
     padding: 40px 20px;
     font-size: 28px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    box-shadow: 0 4px 8px rgba(0, 50, 0, 0.1);
     text-align: center;
-    color: #007acc; /* Sky blue text */
+    color: #2e7d32; /* Forest green */
 }
 
 .profile-pic {
@@ -21,35 +21,35 @@ header {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #00bcd4; /* Bright cyan border */
+    border: 3px solid #66bb6a; /* Soft mint green */
     margin-top: 20px;
 }
 
 section {
     padding: 40px 20px;
-    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    background: rgba(255, 255, 255, 0.95);
     margin: 20px auto;
     border-radius: 10px;
     max-width: 800px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 50, 0, 0.05);
     text-align: left;
 }
 
 h2 {
-    color: #00acc1; /* Light cyan */
+    color: #43a047; /* Mid green */
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
 }
 
 h3 {
-    color: #00acc1;
+    color: #43a047;
     text-decoration: underline;
 }
 
 h4 {
     text-align: center;
-    color: #007acc;
+    color: #2e7d32;
 }
 
 u {
@@ -70,9 +70,9 @@ p {
 
 footer {
     background: #ffffff;
-    color: #007acc;
+    color: #2e7d32;
     padding: 20px;
     margin-top: 20px;
     text-align: center;
-    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 -2px 6px rgba(0, 50, 0, 0.05);
 }
